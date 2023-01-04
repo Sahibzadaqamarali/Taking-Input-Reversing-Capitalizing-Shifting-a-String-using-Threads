@@ -1,1 +1,3 @@
 # Taking-Input-Reversing-Capitalizing-Shifting-a-String-using-Threads
+This code creates four threads: an InputThread, a ReverseThread, a CapitalThread, and a ShiftThread. The InputThread gets a string from the user and stores it in a member variable. The other threads all take the InputThread as an argument and use the string from the InputThread to perform their respective tasks.
+The main thread creates the input thread and the other threads, then starts the input thread. It then waits for the input thread to finish before starting the other threads. Finally, it waits for the other threads to finish before exiting.
